@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    color:rgb(255, 243, 243);
+    background-color: rgb(87, 64, 97);
+}
+header a {
+  color:white;
+  text-decoration: none;
+  border:5px solid #412C84;
+  padding: 5px;
+  background-color: blue;
+}
+header {
+  margin-bottom: 15px;
+  display: flex;
+  padding: 20px;
+  background-color: #200772;
+  border:5px solid #876ED7;
+}
+.link-header:hover {
+  color: #3914AF;
+  background-color: white;
+  transition: all 3s linear ;
+}
+h1:hover {
+ border:15px red dotted;
+ padding: 10px;
+ transition: all 4s linear;
+}
